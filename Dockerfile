@@ -2,7 +2,7 @@ FROM php:7.4-cli-alpine
 
 # environment variables
 ARG EVOSC_GIT="https://github.com/Mattssn/EvoSC.git"
-ARG EVOSC_BRANCH="master"
+ARG EVOSC_BRANCH="develop"
 ARG BUILD_DATE
 ARG REVISION
 
